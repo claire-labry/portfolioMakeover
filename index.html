@@ -9,41 +9,78 @@
     <!-- Google Fonts Link -->
 
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome CDN -->
+
+    <script src="https://kit.fontawesome.com/d0cfdce03a.js" crossorigin="anonymous"></script>
 
     <title>Welcome</title>
 </head>
-<body>
+<body id="bg-img">
+ <div class="overlay"></div>
+    <header>
+        <div id="menu-btn">
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+        </div>
 
-    <header class="showcase">
-        <div class="container">
-            <nav>
-                <h1 class="logo">Claire Labry</h1>
+        <nav class="menu">
 
-                <img class = "claireimg" src="./assets/images/claire_recent.png" alt="Professional Photo">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+            <div class="menu-branding">
+                <div class="portrait"></div>
+            </div>
+            <ul class="menu-nav">
+                <li class="nav-item">
+                    <a href="/.about.html" class="nav-link">About
+                    </a>
+                </li>
+            </ul>
+            <ul class="menu-nav">
+                <li class="nav-item">
+                    <a href="/portfolio.html" class="nav-link">Portfolio
+                    </a>
+                </li>
+            </ul>
+            <ul class="menu-nav">
+                <li class="nav-item">
+                    <a href="/resume.html" class="nav-link"> Resume
+                    </a>
+                </li>
+            </ul>
+            <ul class="menu-nav">
+                <li class="nav-item">
+                    <a href="/contact.html" class="nav-link">Contact
+                    </a>
+                </li>
+            </ul>
+        </nav> 
+    </header>
 
-        <section>
-            <div class="showcase-content">
-        
-                <p class="my-1">
-                I'm Claire -- It's a pleasure to meet you! I'm a student learning
+    <main id="home">
+        <h1 class="lg-heading">
+            Claire Labry
+        </h1>
 
-                full-stack web development in a bootcamp under the University of Texas at
+        <h2 class="sm-heading">
+            I'm Claire! It's a pleasure to meet you! I'm a student learning
+            full-stack web development in a bootcamp under the University of Texas at
+            Austin.
+        </h2>
 
-                Austin. 
-                </p>
-         </div>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/clairelabry/">
+                <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            <a href="https://github.com/claire-labry">
+                <i class="fab fa-github fa-2x"></i>
+            </a>
+        </div>
+    </main>
 
-        </section>
+   <script src="./assets/javascript/main.js"></script>
 
-  
- 
 </body>
+
 </html>
