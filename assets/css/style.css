@@ -178,6 +178,11 @@ main#home h1 {
   color: #EDD5C0;
 }
 
+#resume {
+  width: 900px;
+  height: 900px;
+}
+
 #main-footer {
   text-align: center;
   padding: 1rem;
