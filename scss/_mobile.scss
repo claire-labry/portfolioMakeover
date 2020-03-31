@@ -1,0 +1,72 @@
+// Widescreen
+
+@include mediaXl{
+
+}
+
+// Desktop & Laptops
+
+@include mediaLg{
+
+}
+
+// Tablets & Small Laptops
+
+@include mediaMd{
+
+    main{
+        align-items: center;
+        text-align: center;
+
+        .lg-heading{
+            line-height: 1;
+            margin-bottom: 1rem;
+        }
+    }
+
+
+    ul.menu-nav,
+    div.menu-branding { 
+       float: none;
+       width: 100%;
+       min-height: 0;
+       margin:0;
+
+       &.show{
+           transform: translate3d(0,0,0);
+
+           .portrait{
+            background-image: url("../images/eplant.jpg");
+            width:200px;
+            height: 200px;
+        }
+
+       }
+    }
+
+    .menu-nav {
+        height:100vh;
+        transform: translate3d(-100%,0,0);
+        font-size: 24px;
+    }
+    .menu-branding{
+        height: 0vh;
+        transform: translate3d(100%, 0 ,0);
+    }    
+
+
+    .about-info{
+        grid-template-areas:
+        "bioimage"
+        "bio";
+    }
+}
+
+// Smartphones
+
+@include mediaSm{
+
+    main#home h1{
+        margin-top: 10vh;
+    }
+}
