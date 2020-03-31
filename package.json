@@ -1,0 +1,22 @@
+{
+  "name": "portfoliomakeover",
+  "version": "1.0.0",
+  "description": "porfolio makeover",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o assets/css/ -- recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claire-labry/portfolioMakeover.git"
+  },
+  "author": "Claire Labry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/claire-labry/portfolioMakeover/issues"
+  },
+  "homepage": "https://github.com/claire-labry/portfolioMakeover#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
