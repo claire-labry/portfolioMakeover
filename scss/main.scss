@@ -112,6 +112,36 @@ main{
     }
 }
 
+// Button Styles
+
+
+.btn{ 
+
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border:0;
+    margin-bottom: 0.3rem;
+    &:hover{
+        background: $secondary-color;
+        color: $primary-color;
+    }
+}
+
+
+.btn-dark {
+    @extend .btn;
+    padding: 0.5rem 1rem;
+    background-color: wheat;
+    color: $font-color;
+}
+
+.btn-light {
+    @extend .btn;
+    padding: 0.5rem 1rem;
+    background-color: wheat;
+    color: $font-color;
+}
+
 #main-footer{
     font-size: 20px;
     text-align: center;
