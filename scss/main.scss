@@ -57,6 +57,7 @@ main{
         a{
             padding: 5px;
             color: $font-color;
+            font-size: 18px;
 
             &:hover{
                 color: $secondary-color;
@@ -112,12 +113,35 @@ main{
     }
 }
 
-// Button Styles
+// Contact Page
 
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
+
+    div{
+        font-size: 2rem;
+        border: 3px $font-color solid;
+        padding: 1.5rem 2.5rem;
+        margin-bottom: 3rem;
+        @include easeOut;
+
+        &:hover {
+            padding: 0.5rem 1.5rem;
+            background: $secondary-color;
+            color: white;
+        }
+    }
+}
+
+// Button Styles
 
 .btn{ 
 
-    display: inline-block;
+    display: block;
     padding: 0.5rem 1rem;
     border:0;
     margin-bottom: 0.3rem;
@@ -130,17 +154,33 @@ main{
 
 .btn-dark {
     @extend .btn;
-    padding: 0.5rem 1rem;
+    padding: 10px;
+    border: 0;
     background-color: wheat;
     color: $font-color;
+    text-align: center;
+
+    #icons{
+        padding: 10px;
+        font-size: 20px;
+    }
 }
 
 .btn-light {
     @extend .btn;
-    padding: 0.5rem 1rem;
+    padding: 10px;
     background-color: wheat;
     color: $font-color;
+    text-align: center;
+
+    #icons{
+        padding: 10px;
+        font-size: 20px;
+    }
 }
+
+
+
 
 #main-footer{
     font-size: 20px;
