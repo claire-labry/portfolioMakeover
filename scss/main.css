@@ -94,15 +94,6 @@
   transition: all 0.5s ease-out;
 }
 
-.portrait {
-  width: 250px;
-  height: 250px;
-  background: url("../images/eplant.jpg");
-  border-radius: 50%;
-  border: solid 3px white;
-  margin: 2rem;
-}
-
 @media screen and (min-width: 1171px) {
   .projects {
     -ms-grid-columns: (1fr)[4];
@@ -217,7 +208,7 @@ h3 {
 h1.lg-heading,
 h2.lg-heading,
 h3.lg-heading {
-  font-size: 75px;
+  font-size: 10px;
 }
 
 h1.sm-heading,
@@ -272,7 +263,7 @@ main#home h1 {
   display: -ms-grid;
   display: grid;
   grid-gap: 30px;
-      grid-template-areas: "bioimage bio";
+      grid-template-areas: 'bioimage bio';
 }
 
 .about-info .bio-image {
@@ -280,15 +271,14 @@ main#home h1 {
   -ms-grid-column: 1;
   grid-area: bioimage;
   margin: auto;
-  border-radius: 50%;
-  border: #967E30 3px double;
+  border: #967E30 3px;
 }
 
 .about-info .bio {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: bio;
-  font-size: 24px;
+  font-size: 20px;
   margin: 30px;
 }
 
@@ -302,6 +292,7 @@ main#home h1 {
 
 .projects img {
   width: 100%;
+  height: auto;
   border: 3px #967E30 solid;
 }
 

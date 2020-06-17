@@ -23,7 +23,7 @@ h3 {
   margin: 0;
 
   &.lg-heading {
-    font-size: 75px;
+    font-size: 10px;
   }
 
   &.sm-heading {
@@ -82,13 +82,12 @@ main {
   .bio-image {
     grid-area: bioimage;
     margin: auto;
-    border-radius: 50%;
-    border: $font-color 3px double;
+    border: $font-color 3px;
   }
 
   .bio {
     grid-area: bio;
-    font-size: 24px;
+    font-size: 20px;
     margin: 30px;
   }
 }
