@@ -1,34 +1,32 @@
-# Claire's Portfolio 
+# Claire's Portfolio
 
-Hi there, my name is Claire Labry and welcome to my portfolio! This is a showcase of projects and assignments that I've completed under the University of Texas at Austin's Full-Stack Coding bootcamp. Take a look at the variety of subjects learned through each homework completed such as: HTML, CSS, and Javascript. 
+Hi there, my name is Claire Labry and welcome to my portfolio! This is a showcase of projects and assignments that I've completed under the University of Texas at Austin's Full-Stack Coding bootcamp. Take a look at the variety of subjects learned through each homework completed such as: HTML, CSS, Javascript, Node.js, Express.js, TailwindCSS, SASS, jQuery, React.js.
 
-## Projects 
+## Projects
 
-### Super Spooky Psychic Game
+### NewsScrape
 
-* Type any letter to compete with the computer to guess what letter the computer has picked. Technologies used: HTML, CSS, Javascript
+- Scrape + save some inspiring news for you read today! Technologies used: Axios, Cheerio, Express.js, Handlebars, MongoDB, Mongoose, Material CSS + Javascript
 
-### Book A Cook
+### Eat the Burger App
 
-*  Book A Cook is perfect way for someone who’s missing home cooked food to leaf  through a selection of cooks on the app and choose a cuisine based on location [where the food originates from], heartiness level [more heavier-based foods], and type of food [i.e. seafood].  Technologies used: HTML, CSS, Javascript
+- You want to see all of the burgers that were devoured? Or do you devour a certain burger? Create your burger and sumbit your buger and click on your burger to be devoured! Technologies used: Javascript, Express.js, Handlebars, node.js, SASS
 
-### GifTastic
+### Anni Calendar
 
-* Type in a mood that you're feeling right now into the GifTastic search box and 10 different gifs will pop up matching your current mood. Technologies used: HTML, CSS, Javascript
+- Ever want to keep track of your employee's birthdays, work anniversaries, and holidays? This app will allow you to insert a reminder and you can send a birthday card, congratualations, or a holiday card to your employees Techonologies used: TailwindCSS, Javascript, MySQL, Express.js, + Bcrypt.js
 
 ### Marine Trivia Game
 
-* Test your knowledge of the seas and it's animals! Take this trivia game and learn interesting facts! Technologies used: HTML, CSS, Javascript
+- Test your knowledge of the seas and it's animals! Take this trivia game and learn interesting facts! Technologies used: HTML, CSS, Javascript
 
-### Train Scheduler
+### Plant Clicky Game
 
-* Late for a train or can't find your train? Stop there. You can take a look at the train scheduler and find the next train arriving or add a train that you need to catch and figure out the next arrival times. Technologies used: HTML, CSS, Javascript
+- Test your memory with this plant clicky game! For those who love plants and flowers, this is the game for you! You can track your best score and your current score Technologies used: React.js
 
+## Technology used for this Portfolio
 
-## Technology
-
-* HTML
-* SASS
-* CSS
-* Javascript
-
+- HTML
+- SASS
+- CSS
+- Javascript
