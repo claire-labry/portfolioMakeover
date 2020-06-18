@@ -274,11 +274,13 @@ main#home h1 {
 }
 .btn:hover, .btn-light:hover, .btn-dark:hover {
   background: #E15D40;
+  color: #B7BCB0;
 }
 
 .btn-dark {
   padding: 10px;
   border: 0;
+  background-color: wheat;
   color: #967E30;
   text-align: center;
 }
@@ -289,6 +291,7 @@ main#home h1 {
 
 .btn-light {
   padding: 10px;
+  background-color: wheat;
   color: #967E30;
   text-align: center;
 }
