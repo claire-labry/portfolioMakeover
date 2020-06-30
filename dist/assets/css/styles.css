@@ -1,0 +1,110 @@
+* {
+  font-family: 'Fira Code', monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 4;
+  background-color: white;
+  opacity: 0.9;
+  overflow: hidden;
+}
+
+#claire {
+  font-family: 'Sacramento', cursive;
+  font-size: 60px;
+  color: black;
+}
+
+a {
+  color: black;
+  font-size: 30px;
+}
+
+a:hover {
+  transition: all 0.5s ease-out;
+  color: #edbbc1;
+}
+
+.intro-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title,
+.subtitle {
+  padding: 10px;
+}
+
+.tags {
+  margin: auto;
+}
+
+#tag {
+  font-size: 15px;
+  background-color: #648c85;
+  color: white;
+}
+
+.projects {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.projectimg {
+  width: 100%;
+  height: auto;
+  border-radius: 50px;
+}
+
+.projectimg:hover {
+  opacity: 0.5;
+}
+#icons {
+  padding: 5px;
+  color: white;
+}
+
+#tag1 {
+  font-size: 20px;
+  background-color: #164038;
+}
+
+.projecttag {
+  font-size: 15px;
+  color: white;
+}
+
+.contact-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact {
+  color: #e2e5ee;
+  text-align: center;
+  margin: 10px;
+  font-size: 25px;
+}
+.icons {
+  margin: auto;
+}
+
+.link {
+  text-decoration: none;
+  color: #edbbc1;
+}
+
+.link:hover {
+  transition: all 0.5s ease-out;
+  color: #e2e5ee;
+}
