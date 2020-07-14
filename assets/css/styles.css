@@ -1,5 +1,8 @@
 * {
   font-family: 'Fira Code', monospace;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 html {
@@ -58,14 +61,30 @@ a:hover {
   grid-gap: 20px;
   grid-template-columns: repeat(3, 1fr);
 }
-.projectimg {
+.img__img {
   width: 100%;
   height: auto;
   border-radius: 50px;
 }
 
-.projectimg:hover {
-  opacity: 0.5;
+.img__wrap {
+  position: relative;
+}
+.img__description {
+  position: absolute;
+  text-align: center;
+  top: 10vh;
+  padding: 10px;
+  color: white;
+  background-color: #164038;
+  visibility: hidden;
+  opacity: 0;
+transition: opacity .3s, visibility .2s;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
 }
 #icons {
   padding: 5px;
