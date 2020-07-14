@@ -73,7 +73,8 @@ a:hover {
 .img__description {
   position: absolute;
   text-align: center;
-  top: 10vh;
+  width: 100%;
+  top:5vh;
   padding: 10px;
   color: white;
   background-color: #164038;
