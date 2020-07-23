@@ -30,3 +30,5 @@ Hi there, my name is Claire Labry and welcome to my portfolio! This is a showcas
 - SASS
 - CSS
 - Javascript
+
+
