@@ -2,7 +2,9 @@
 
 [WEBSITE UNDER CONSTRUCTION]
 
-Hi there, my name is Claire Labry and welcome to my portfolio! This is a showcase of projects and assignments that I've completed under the University of Texas at Austin's Full-Stack Coding bootcamp. Take a look at the variety of subjects learned through each homework completed such as: HTML, CSS, Javascript, Node.js, Express.js, TailwindCSS, SASS, jQuery, React.js.
+Hi there, my name is Claire Labry and welcome to my portfolio + personal website! This is a showcase of projects (both professional work and personal expressions), my musings, and best way to reach out!
+
+* Please keep in mind, this website is currently undergoing construction, so what you currently see is rough reflection of me. I will be updating this website as the time goes. Stay tuned for the finalized site *
 
 
 
